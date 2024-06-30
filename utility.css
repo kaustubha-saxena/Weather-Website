@@ -13,3 +13,6 @@
 .relative{
     position: relative;
 }
+.hide{
+    display: none;
+}

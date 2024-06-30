@@ -17,7 +17,7 @@ body{
 }
 .container{
     width: 300px;
-    height: 400px;
+    /* height: 430px; */
     top:20%;
     background-color: aqua;
     border-radius: 15px;
@@ -42,6 +42,9 @@ body{
     background-color: #e1e1e1;
     box-shadow: #a9a9a9 3px 3px;
 }
+.search input::placeholder{
+    color: rgb(82, 82, 82);
+}
 .search button{
     border: none;
     background-color: transparent;
@@ -63,20 +66,23 @@ body{
     font-weight: 900;
 }
 .weather{
-    padding: 23px 0px; 
+    padding: 22px 0px;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .icon{
     width: 30px;
 }
 .wind-speed, .humidity{
 width: 45%;
-justify-content: space-around;
+/* justify-content: space-around; */
+gap: 10px;
 }
 .botm{
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
+    padding-bottom: 15px;
 }
 .font{
     font-size: 14px;
@@ -85,4 +91,15 @@ justify-content: space-around;
 }
 .value p:nth-child(2){
     font-weight: 400;
+}
+.tips{
+    width: 90%;
+    align-items: start;
+    margin: auto;
+    padding: 0px 0px 15px;
+    gap: 10px;
+}
+.tip img{
+    
+    
 }
