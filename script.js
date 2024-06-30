@@ -37,7 +37,7 @@ function get_Data(lat, lon) {
 function get_city() {
     city = search.children[0].value;
     console.log(city)
-    let response = fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${api}`)
+    let response = fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${api}`)
     response.then((res) => {
         let data = res.json();
         data.then((d) => {
