@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+}
+.justify-centre{
+    justify-content:center;
+}
+.align-item{
+    align-items: center;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
