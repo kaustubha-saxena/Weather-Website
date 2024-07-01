@@ -45,5 +45,5 @@ function get_city() {
         })
     })
 }
-search.children[0].value = "Delhi";
+search.children[0].value = "Bangalore";
 get_city();
