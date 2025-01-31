@@ -15,7 +15,7 @@ btn.addEventListener("click", () => {
 function get_Data(lat, lon) {
     fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api}`).then((res) => {
         res.json().then((data) => {
-            // console.log(data);
+            console.log(data);
             temp.innerHTML = Math.round(data.main.temp - 273.15) + "°C";
             let a = data.weather[0].main;
             img.src = `images/${a}.png`
